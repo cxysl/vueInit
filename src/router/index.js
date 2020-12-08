@@ -4,11 +4,6 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/hello',
-    name: 'hello',
-    component: () => import('../pages/hello')
-  },
-  {
     path: '/login',
     name: 'login',
     components: {
