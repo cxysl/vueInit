@@ -1,0 +1,27 @@
+.header-user-info{
+    .user-info-wrap{
+        margin-bottom: 10px;
+    }
+    .user-logo{
+        float: left;
+        width: 100px;
+        height: 100px;
+    }
+    .user-base-info{
+        float: left;
+        box-sizing: border-box;
+        width: 300px;
+        padding-left: 20px;
+    }
+    .info-bar{
+        height: 28px;
+        line-height: 28px;
+        margin-bottom: 10px;
+        .fr-btn{
+            float: right;
+        }
+    }
+    .exit-btn{
+        float: right;
+    }
+}

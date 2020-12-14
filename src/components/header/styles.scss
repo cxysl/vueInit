@@ -1,0 +1,49 @@
+.page-header {
+  position: fixed;
+  box-sizing: border-box;
+  width: 100%;
+  height: 56px;
+  background-color: #0072fe;
+  margin-bottom: 20px;
+  padding: 0 40px;
+  color: #fff;
+  z-index: 10;
+  .logo {
+    height: 56px;
+    line-height: 56px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .quick-entrys {
+    float: right;
+    .user-name-wrap {
+      cursor: pointer;
+    }
+    li {
+      display: inline-block;
+      height: 56px;
+      line-height: 56px;
+      margin-left: 20px;
+      a {
+        padding: 10px 0;
+        color: #fff;
+      }
+      i {
+        margin-right: 4px;
+      }
+      .el-icon-arrow-down {
+        margin-left: 4px;
+      }
+    }
+  }
+}
+.user-info-drawer{
+  .el-avatar{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #eee;
+  }
+  .text-btn{
+    margin-left: 10px;
+  }
+}

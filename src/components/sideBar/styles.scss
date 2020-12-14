@@ -1,0 +1,25 @@
+@import 'src/assets/scss/config';
+.side-bar {
+  position: fixed;
+  box-sizing: border-box;
+  width: 200px;
+  height: 100%;
+  top: 56px;
+  left: 0;
+  background-color: #fff;
+  z-index: 9;
+  .el-menu {
+    border: 0;
+  }
+  .mini-program-qrcode {
+    width: 160px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px auto;
+    .tips {
+      text-align: center;
+      margin-top: 10px;
+      color: $secondary;
+    }
+  }
+}
